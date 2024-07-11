@@ -1,0 +1,68 @@
+.login{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f0f0f0;
+}
+.loginWrapper{
+    width: 60%;
+    height: 60%;
+    display: flex;
+}
+.loginTitle{
+    color: #166fe5;
+    font-size: 60px;
+}
+.loginRight,.loginLeft{
+    height: 80%;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.loginLeft{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 20px;
+    justify-content: center;
+}
+.loginUserInfo{
+    height: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid gray;
+    padding-left: 10px;
+    
+}
+.userInfo:focus{
+    outline: none;
+}
+.loginButton{
+    border: none;
+    width: 90%;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    cursor: pointer;
+}
+.forgot{
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0 ;
+}
+.create{
+    border: none;
+    width: 60%;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    cursor: pointer;
+}

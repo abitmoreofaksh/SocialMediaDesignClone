@@ -1,0 +1,36 @@
+.sidebar{
+    flex: 3.5;
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    position: sticky;
+    top: 50px;
+}
+.sidebarOptions{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.sidebarOptionItem{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebarIcons{
+    margin: 10px 10px;
+    font-size: 30px !important;
+}
+.siderbarButton{
+    border: none;
+    background-color: #f1f1f1;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 105px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sidebarHr{
+    margin: 20px 20px;
+}
+.sidebarFriends{
+    margin-left: 20px;
+}

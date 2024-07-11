@@ -1,0 +1,28 @@
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+}
+.onlineFriendItem{
+    position: relative;
+    margin-right: 10px;
+    margin: 10px 0;
+}
+.friendImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.friendbadge{
+    position: absolute;
+    top: -2px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: limegreen;
+    width: 12px;
+    height: 12px;
+    right: 0;
+}
+.friendName{
+    font-weight: 400;
+}
